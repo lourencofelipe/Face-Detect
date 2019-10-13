@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Face Tracking</title>
+        <style>
+            video, canvas {
+                position: absolute;
+                border: 1px solid red;
+            }
+        </style>
+    </head>
+    <body>
+    <video id="video" width="320" height="240" preload autoplay loop muted></video>
+    <canvas id="canvas" width="320" height="240">You browser does not support HTML5.</canvas>
+    
+    <script src="jquery-3.4.1.min.js"></script>
+    <script src="/data/tracking-min.js"></script>
+    <script src="/data/face-min.js"></script>
+    <script src="face-detection.js"></script>
+    </body>
+</html>
